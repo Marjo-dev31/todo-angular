@@ -1,0 +1,10 @@
+h2 {
+    color: coral;
+    background-color: rgb(45, 43, 43);
+    padding: 1rem 5rem;
+    border-radius: 3rem;
+}
+
+li {
+   list-style-type: disc; 
+}

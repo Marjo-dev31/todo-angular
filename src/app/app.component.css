@@ -1,0 +1,13 @@
+ul {
+    color: rgb(45, 43, 43); 
+    font-family: 'Roboto', sans-serif;
+    display: flex; 
+    justify-content: space-around;
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    border: 0.2rem solid;
+    padding: 0.5rem 7rem;
+}
