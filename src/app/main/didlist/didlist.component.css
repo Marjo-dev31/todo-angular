@@ -1,7 +1,16 @@
-h2 {
+/* h2 {
     color: coral;
     background-color: rgb(45, 43, 43);
     padding: 1rem 5rem;
     border-radius: 3rem;
-}
+} */
 
+#addDidTaskbtn {
+    width: 8rem;
+    margin: 1rem auto;
+    padding: 0.5rem;
+    border-radius: 1rem;
+    color: rgb(45, 43, 43);
+    background-color: coral;
+    font-weight: bold;
+}

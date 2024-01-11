@@ -11,7 +11,7 @@ import { AddTaskComponent } from './main/add-task/add-task.component';
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [CommonModule, RouterOutlet, HearderComponent, TodolistComponent, DidlistComponent, TopHeaderComponent, AddTaskComponent],
+  imports: [CommonModule, RouterOutlet, HearderComponent, TodolistComponent, DidlistComponent, TopHeaderComponent, AddTaskComponent, ],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })

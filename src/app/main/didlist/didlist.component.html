@@ -1,2 +1,8 @@
 <h2>Did List</h2>
-<app-tasklist></app-tasklist>
+<div *ngFor ="let item of listOfTask">
+<p>{{item}}</p>
+</div>
+<div>
+    <input type="text">
+    <button id="addDidTaskbtn">ADD DID TASK</button>
+</div>

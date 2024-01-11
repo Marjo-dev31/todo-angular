@@ -1,13 +1,18 @@
+import { CommonModule } from '@angular/common';
 import { Component } from '@angular/core';
-import { TasklistComponent } from '../tasklist/tasklist.component';
+import { FormsModule } from '@angular/forms';
+
 
 @Component({
   selector: 'app-todolist',
   standalone: true,
-  imports: [TasklistComponent, ],
+  imports: [FormsModule, CommonModule],
   templateUrl: './todolist.component.html',
   styleUrl: './todolist.component.css'
 })
 export class TodolistComponent {
+task: string = ''
 
 }
+
+

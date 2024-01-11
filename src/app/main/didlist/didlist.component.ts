@@ -1,13 +1,14 @@
+import { CommonModule } from '@angular/common';
 import { Component } from '@angular/core';
-import { TasklistComponent } from '../tasklist/tasklist.component';
+
 
 @Component({
   selector: 'app-didlist',
   standalone: true,
-  imports: [TasklistComponent],
+  imports: [CommonModule],
   templateUrl: './didlist.component.html',
-  styleUrl: './didlist.component.css'
+  styleUrls: ['./didlist.component.css','../todolist/todolist.component.css']
 })
 export class DidlistComponent {
-
+listOfTask: string[] = ['faire la vaiselle', 'réflechir à la sdb'];
 }

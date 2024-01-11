@@ -1,2 +1,8 @@
 <h2>Todo List</h2>
-<app-tasklist></app-tasklist>
+<ul>
+    <li *ngIf="task != ''">{{task}}</li>
+</ul>
+<div id="todoList">
+    <input [(ngModel)]="task">
+    <button id="addTodoTaskBtn">ADD TODO TASK</button>
+</div>
