@@ -3,6 +3,6 @@
     <li *ngIf="task != ''">{{task}}</li>
 </ul>
 <div id="todoList">
-    <input [(ngModel)]="task">
-    <button id="addTodoTaskBtn">ADD TODO TASK</button>
+    <input #inputTask>
+    <button id="addTodoTaskBtn" (click)="addTodoTask(inputTask)">ADD TODO TASK</button>
 </div>

@@ -13,6 +13,10 @@ import { FormsModule } from '@angular/forms';
 export class TodolistComponent {
 task: string = ''
 
+addTodoTask(inputEl: HTMLInputElement) {
+this.task = inputEl.value
+
+}
 }
 
 
