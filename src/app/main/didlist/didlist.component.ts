@@ -10,5 +10,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./didlist.component.css','../todolist/todolist.component.css']
 })
 export class DidlistComponent {
-listOfTask: string[] = ['faire la vaiselle', 'réflechir à la sdb'];
+listOfTask: string[] = ['faire la vaiselle', 'restaurer la chaise'];
 }
