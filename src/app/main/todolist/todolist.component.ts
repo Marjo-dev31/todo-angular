@@ -17,6 +17,8 @@ task: string = ''
 addTodoTask(inputEl: HTMLInputElement) {
 this.task = inputEl.value
 this.listOfTask.push(this.task)
+
+inputEl.value = ''
 }
 }
 
