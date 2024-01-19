@@ -1,6 +1,7 @@
 <h2>Did List</h2>
-<div *ngFor ="let item of listOfTask">
-<p>{{item}}</p>
+<div *ngFor ="let item of listOfTask" class="didTaskItem" >
+<li #didTaskItem>{{item}}</li>
+<button (click)="delete(didTaskItem, $event)">X</button>
 </div>
 <div>
     <input type="text">

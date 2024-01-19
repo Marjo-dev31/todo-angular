@@ -11,4 +11,9 @@ import { Component } from '@angular/core';
 })
 export class DidlistComponent {
 listOfTask: string[] = ['faire la vaiselle', 'restaurer la chaise'];
+
+delete(liEl: HTMLLIElement, event:any) {
+liEl.remove()
+event.target.remove()
+}
 }

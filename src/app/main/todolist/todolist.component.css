@@ -1,28 +1,30 @@
 h2 {
     color: coral;
-    background-color: rgb(45, 43, 43);
+    background-color: rgb(56, 55, 55);
     padding: 1rem 5rem;
     border-radius: 3rem;
 }
 
 ul {
-    list-style-type: disc ;
+    list-style-type: disc;
     margin: 1rem;
 }
 
 div {
-display: flex;
-flex-direction: column;
+    display: flex;
+    flex-direction: column;
 }
-
-
 
 #addTodoTaskBtn {
     width: 9rem;
     margin: 1rem auto;
     padding: 0.5rem;
     border-radius: 1rem;
-    color: rgb(45, 43, 43);
+    color: rgb(56, 55, 55);
     background-color: coral;
     font-weight: bold;
+}
+
+input {
+    margin: 2rem 0 1rem;
 }
