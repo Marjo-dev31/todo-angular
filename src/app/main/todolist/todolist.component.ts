@@ -11,11 +11,12 @@ import { FormsModule } from '@angular/forms';
   styleUrl: './todolist.component.css'
 })
 export class TodolistComponent {
+listOfTask : string[] = []
 task: string = ''
 
 addTodoTask(inputEl: HTMLInputElement) {
 this.task = inputEl.value
-
+this.listOfTask.push(this.task)
 }
 }
 

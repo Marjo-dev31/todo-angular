@@ -1,6 +1,6 @@
 <h2>Todo List</h2>
 <ul>
-    <li *ngIf="task != ''">{{task}}</li>
+    <li *ngFor="let item of listOfTask">{{item}}</li>
 </ul>
 <div id="todoList">
     <input #inputTask>
