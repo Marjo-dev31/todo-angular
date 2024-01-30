@@ -1,6 +1,9 @@
 <h2>Todo List</h2>
 <ul>
-    <li *ngFor="let item of listOfTask">{{item}}</li>
+    <div *ngFor="let item of listOfTask" class="todoTaskItem">
+        <li #todoTaskItem>{{item}}</li>
+        <button (click)="delete(todoTaskItem, $event)">X</button>
+    </div>
 </ul>
 <div id="todoList">
     <input #inputTask>

@@ -12,6 +12,11 @@ import { Component } from '@angular/core';
 export class DidlistComponent {
 listOfTask: string[] = ['faire la vaiselle', 'restaurer la chaise'];
 
+addDidTask(inputEl: HTMLInputElement){
+this.listOfTask.push(inputEl.value)
+inputEl.value = ''
+}
+
 delete(liEl: HTMLLIElement, event:any) {
 liEl.remove()
 event.target.remove()

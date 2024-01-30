@@ -28,12 +28,12 @@ input {
 }
 
 button {
-    border: solid 2px rgb(56, 55, 55);
-    color: rgb(56, 55, 55);
+    color: rgb(255, 128, 82);
     font-weight: bold;
-    background-color: rgb(255, 128, 82, 0.5);
+
 }
 
 button:hover {
     background-color: coral;
+    color:rgb(55, 55, 55) ;
 }

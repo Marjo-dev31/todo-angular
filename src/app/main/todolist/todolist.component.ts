@@ -17,9 +17,13 @@ task: string = ''
 addTodoTask(inputEl: HTMLInputElement) {
 this.task = inputEl.value
 this.listOfTask.push(this.task)
-
 inputEl.value = ''
 }
+
+delete(liEl: HTMLLIElement, event:any) {
+  liEl.remove()
+  event.target.remove()
+  }
 }
 
 
